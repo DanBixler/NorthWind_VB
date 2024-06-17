@@ -9,9 +9,10 @@
     <title><%: Page.Title %> - My ASP.NET Application</title>
 
     <asp:PlaceHolder runat="server">
-        <%: Scripts.Render("~/bundles/modernizr") %>
+        <%: System.Web.Optimization.Scripts.Render("~/bundles/modernizr") %>
     </asp:PlaceHolder>
 
+    
     <webopt:bundlereference runat="server" path="~/Content/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 
@@ -63,7 +64,7 @@
         </div>
     </form>
     <asp:PlaceHolder runat="server">
-        <%: Scripts.Render("~/Scripts/bootstrap.js") %>
+        <%: System.Web.Optimization.Scripts.Render("~/Scripts/bootstrap.js") %>
     </asp:PlaceHolder>
 </body>
 </html>
