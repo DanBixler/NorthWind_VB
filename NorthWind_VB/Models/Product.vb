@@ -22,8 +22,8 @@ Partial Public Class Product
     Public Property ReorderLevel As Nullable(Of Short)
     Public Property Discontinued As Boolean
 
-    Public Overridable Property Category As Category
-    Public Overridable Property Order_Details As ICollection(Of Order_Detail) = New HashSet(Of Order_Detail)
-    Public Overridable Property Supplier As Supplier
+    'Public Overridable Property Category As Category
+    'Public Overridable Property Order_Details As ICollection(Of Order_Detail) = New HashSet(Of Order_Detail)
+    'Public Overridable Property Supplier As Supplier
 
 End Class
