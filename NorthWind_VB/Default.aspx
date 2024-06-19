@@ -4,38 +4,37 @@
 
     <main>
         <section class="row" aria-labelledby="aspnetTitle">
-            <h1 id="aspnetTitle">ASP.NET</h1>
-            <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS, and JavaScript.</p>
-            <p><a href="http://www.asp.net" class="btn btn-primary btn-md">Learn more &raquo;</a></p>
+            <div class="col-md-4">
+                <img src="Content/Images/ee19715b7a2149b1a1b35bc43575e0be.png" class="img-fluid" style="max-width:300px; height:auto; padding:25px;" alt="Northwind logo" />                  
+            </div>  
+            <div class ="col-md-8">
+                <h2>Welcome to Northwind Traders!</h2> 
+            </div>
         </section>
 
         <div class="row">
             <section class="col-md-4" aria-labelledby="gettingStartedTitle">
-                <h2 id="gettingStartedTitle">Getting started</h2>
+                <h2 id="gettingStartedTitle">Who are we?</h2>
                 <p>
-                    ASP.NET Web Forms lets you build dynamic websites using a familiar drag-and-drop, event-driven model.
-                A design surface and hundreds of controls and components let you rapidly build sophisticated, powerful UI-driven sites with data access.
-                </p>
-                <p>
-                    <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301948">Learn more &raquo;</a>
-                </p>
+                    At Northwind Traders, we pride ourselves on being your trusted partner in the world of trading and order fulfillment. 
+                    With a commitment to excellence and customer satisfaction, we offer a wide range of services to meet your business needs.
+                </p>               
             </section>
             <section class="col-md-4" aria-labelledby="librariesTitle">
-                <h2 id="librariesTitle">Get more libraries</h2>
+                <h2 id="librariesTitle">What can we do for you?</h2>
                 <p>
-                    NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.
-                </p>
-                <p>
-                    <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301949">Learn more &raquo;</a>
-                </p>
+                    Whether you're seeking efficient logistics solutions, reliable order fulfillment services, or expert trading advice, Northwind Traders has you covered.
+                    Our dedicated team is equipped with the expertise and resources to ensure your orders are filled promptly and accurately, allowing you to focus on what matters most – growing your business.
+                </p>                
             </section>
             <section class="col-md-4" aria-labelledby="hostingTitle">
-                <h2 id="hostingTitle">Web Hosting</h2>
+                <h2 id="hostingTitle">Try us out</h2>
                 <p>
-                    You can easily find a web hosting company that offers the right mix of features and price for your applications.
+                    Join countless satisfied clients who have experienced the reliability and professionalism of Northwind Traders.
+                    Explore our services today and let us help you succeed in the competitive marketplace.
                 </p>
                 <p>
-                    <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301950">Learn more &raquo;</a>
+                   Partner with Northwind Traders and experience the difference firsthand!
                 </p>
             </section>
         </div>
