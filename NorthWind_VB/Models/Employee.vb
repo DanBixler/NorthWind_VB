@@ -30,9 +30,9 @@ Partial Public Class Employee
     Public Property ReportsTo As Nullable(Of Integer)
     Public Property PhotoPath As String
 
-    Public Overridable Property Employees1 As ICollection(Of Employee) = New HashSet(Of Employee)
-    Public Overridable Property Employee1 As Employee
-    Public Overridable Property Orders As ICollection(Of Order) = New HashSet(Of Order)
-    Public Overridable Property Territories As ICollection(Of Territory) = New HashSet(Of Territory)
+    'Public Overridable Property Employees1 As ICollection(Of Employee) = New HashSet(Of Employee)
+    'Public Overridable Property Employee1 As Employee
+    'Public Overridable Property Orders As ICollection(Of Order) = New HashSet(Of Order)
+    'Public Overridable Property Territories As ICollection(Of Territory) = New HashSet(Of Territory)
 
 End Class

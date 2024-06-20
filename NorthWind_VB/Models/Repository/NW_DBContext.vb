@@ -5,5 +5,6 @@ Public Class NW_DBContext
 
     Public Property Product() As DbSet(Of Product)
     Public Property Supplier() As DbSet(Of Supplier)
+    Public Property Employee() As DbSet(Of Employee)
 
 End Class
