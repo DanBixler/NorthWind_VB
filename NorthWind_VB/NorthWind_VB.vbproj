@@ -271,6 +271,7 @@
       <LastGenOutput>NorthwindModel.vb</LastGenOutput>
     </Content>
     <Content Include="Pages\Products.aspx" />
+    <Content Include="Pages\Suppliers.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -431,6 +432,7 @@
     </Compile>
     <Compile Include="Models\Repository\NW_DBContext.vb" />
     <Compile Include="Models\Repository\ProductRepository.vb" />
+    <Compile Include="Models\Repository\SupplierRepository.vb" />
     <Compile Include="Models\SalesByCategory_Result.vb">
       <DependentUpon>NorthwindModel.tt</DependentUpon>
     </Compile>
@@ -486,6 +488,13 @@
     <Compile Include="Pages\Products.aspx.vb">
       <DependentUpon>Products.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Suppliers.aspx.designer.vb">
+      <DependentUpon>Suppliers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Suppliers.aspx.vb">
+      <DependentUpon>Suppliers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Site.Master.designer.vb">
       <DependentUpon>Site.Master</DependentUpon>

@@ -24,6 +24,6 @@ Partial Public Class Supplier
     Public Property Fax As String
     Public Property HomePage As String
 
-    Public Overridable Property Products As ICollection(Of Product) = New HashSet(Of Product)
+    'Public Overridable Property Products As ICollection(Of Product) = New HashSet(Of Product)
 
 End Class

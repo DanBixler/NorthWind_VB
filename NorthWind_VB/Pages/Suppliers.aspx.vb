@@ -1,15 +1,15 @@
-﻿Public Class Products
+﻿Public Class Suppliers
     Inherits System.Web.UI.Page
 
-    Private repo As New ProductRepository()
+    Private repo As New SupplierRepository()
     Public Const PageSize As Integer = 15
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
 
     End Sub
 
-    Public Function GetProducts() As IEnumerable(Of Product)
-        Return repo.Product
+    Public Function GetSuppliers() As IEnumerable(Of Supplier)
+        Return repo.Supplier
     End Function
 
     Protected ReadOnly Property CurrentPage As Integer
@@ -24,8 +24,8 @@
 
     Protected ReadOnly Property TotalPages As Integer
         Get
-            Dim products = GetProducts().ToList()
-            Return Math.Ceiling(products.Count / PageSize)
+            Dim suppliers = GetSuppliers().ToList()
+            Return Math.Ceiling(suppliers.Count / PageSize)
         End Get
     End Property
 

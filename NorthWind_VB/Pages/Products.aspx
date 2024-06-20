@@ -32,11 +32,12 @@
                     <% Next %>
                 </tbody>
             </table>
-            <div class="pagination">  
-                <ul class="pagination-list">
+
+            <div class="pagination">
+                <ul class="pagination">                    
                     <% For i As Integer = 1 To TotalPages %>
-                        <li class="list-group-item"><a href="?page=<%= i %>"><%= i %></a></li>
-                    <% Next %>     
+                    <li class="page-item"><a class="page-link" href="?page=<%= i %>"><%= i %></a></li>
+                    <% Next %>                    
                 </ul>
             </div>
         </div>
