@@ -5,7 +5,7 @@
     <main>
         <section class="row" aria-labelledby="aspnetTitle">
             <div class="col-md-4">
-                <img src="Content/Images/ee19715b7a2149b1a1b35bc43575e0be.png" class="img-fluid" style="max-width:300px; height:auto; padding:25px;" alt="Northwind logo" />                  
+                <img src="Content/Images/Northwind_Logo.png" class="img-fluid" style="max-width:300px; height:auto; padding:25px;" alt="Northwind logo" />                  
             </div>  
             <div class ="col-md-8">
                 <h2>Welcome to Northwind Traders!</h2> 

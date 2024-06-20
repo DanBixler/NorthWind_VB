@@ -15,7 +15,7 @@
                         <th>Title</th>
                         <th>Hire Date</th>
                         <th>Home Phone</th>
-                        <th>Extension</th>
+                        <th>Extension</th>                        
                     </tr>
                 </thead>
                 <tbody>
@@ -26,7 +26,7 @@
                         <td><%= emp.Title %></td>
                         <td><%= emp.HireDate %></td>
                         <td><%= emp.HomePhone%></td>
-                        <td><%= emp.Extension %></td>                       
+                        <td><%= emp.Extension %></td>                        
                     </tr>
                     <% Next %>
                 </tbody>
