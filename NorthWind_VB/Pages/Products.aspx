@@ -34,10 +34,14 @@
             </table>
 
             <div class="pagination">
-                <ul class="pagination">                    
-                    <% For i As Integer = 1 To TotalPages %>
+                <ul class="pagination">
+                    <% For i As Integer = 1 To TotalPages%>
+                    <% If i = CurrentPage Then %>
+                    <li class="page-item active"><a class="page-link" href="?page=<%= i %>"><%= i %></a></li>
+                    <% Else %>
                     <li class="page-item"><a class="page-link" href="?page=<%= i %>"><%= i %></a></li>
-                    <% Next %>                    
+                    <% End If %>
+                    <% Next %>
                 </ul>
             </div>
         </div>

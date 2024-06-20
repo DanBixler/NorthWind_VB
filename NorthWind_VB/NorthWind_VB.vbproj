@@ -270,6 +270,7 @@
       <DependentUpon>NorthwindModel.edmx</DependentUpon>
       <LastGenOutput>NorthwindModel.vb</LastGenOutput>
     </Content>
+    <Content Include="Pages\Employees.aspx" />
     <Content Include="Pages\Products.aspx" />
     <Content Include="Pages\Suppliers.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
@@ -430,6 +431,7 @@
     <Compile Include="Models\Region.vb">
       <DependentUpon>NorthwindModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\Repository\EmployeeRepository.vb" />
     <Compile Include="Models\Repository\NW_DBContext.vb" />
     <Compile Include="Models\Repository\ProductRepository.vb" />
     <Compile Include="Models\Repository\SupplierRepository.vb" />
@@ -481,6 +483,13 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Pages\Employees.aspx.designer.vb">
+      <DependentUpon>Employees.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Employees.aspx.vb">
+      <DependentUpon>Employees.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Pages\Products.aspx.designer.vb">
       <DependentUpon>Products.aspx</DependentUpon>
