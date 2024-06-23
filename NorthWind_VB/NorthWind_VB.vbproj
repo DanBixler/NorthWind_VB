@@ -270,6 +270,8 @@
       <DependentUpon>NorthwindModel.edmx</DependentUpon>
       <LastGenOutput>NorthwindModel.vb</LastGenOutput>
     </Content>
+    <Content Include="Pages\Items.aspx" />
+    <Content Include="Pages\Categories.aspx" />
     <Content Include="Pages\Employees.aspx" />
     <Content Include="Pages\Products.aspx" />
     <Content Include="Pages\Suppliers.aspx" />
@@ -287,6 +289,7 @@
     <Content Include="Models\NorthwindModel.edmx.diagram">
       <DependentUpon>NorthwindModel.edmx</DependentUpon>
     </Content>
+    <Content Include="ImageHandler.ashx" />
     <None Include="Scripts\jquery-3.7.0.intellisense.js" />
     <Content Include="Scripts\jquery-3.7.0.js" />
     <Content Include="Scripts\jquery-3.7.0.min.js" />
@@ -343,6 +346,24 @@
     </Compile>
     <Compile Include="Global.asax.vb">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Repository\CategoryRepository.vb" />
+    <Compile Include="Pages\Items.aspx.designer.vb">
+      <DependentUpon>Items.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Items.aspx.vb">
+      <DependentUpon>Items.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Categories.aspx.designer.vb">
+      <DependentUpon>Categories.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Categories.aspx.vb">
+      <DependentUpon>Categories.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ImageHandler.ashx.vb">
+      <DependentUpon>ImageHandler.ashx</DependentUpon>
     </Compile>
     <Compile Include="Models\Alphabetical_list_of_product.vb">
       <DependentUpon>NorthwindModel.tt</DependentUpon>

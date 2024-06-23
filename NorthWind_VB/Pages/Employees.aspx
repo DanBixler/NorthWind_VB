@@ -15,7 +15,8 @@
                         <th>Title</th>
                         <th>Hire Date</th>
                         <th>Home Phone</th>
-                        <th>Extension</th>                        
+                        <th>Extension</th>
+                        <th>Photo</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -26,7 +27,8 @@
                         <td><%= emp.Title %></td>
                         <td><%= emp.HireDate %></td>
                         <td><%= emp.HomePhone%></td>
-                        <td><%= emp.Extension %></td>                        
+                        <td><%= emp.Extension %></td>  
+                        <td><img src="<%= ResolveUrl("~/ImageHandler.ashx?type=employee&id=" & emp.EmployeeID)%> " alt="Employee Photo" style="width:50px;height:50px;" /></td>
                     </tr>
                     <% Next %>
                 </tbody>
