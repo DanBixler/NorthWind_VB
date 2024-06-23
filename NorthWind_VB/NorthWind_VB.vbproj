@@ -270,6 +270,8 @@
       <DependentUpon>NorthwindModel.edmx</DependentUpon>
       <LastGenOutput>NorthwindModel.vb</LastGenOutput>
     </Content>
+    <Content Include="Pages\AddEmployee.aspx" />
+    <Content Include="Pages\EditEmployee.aspx" />
     <Content Include="Pages\Items.aspx" />
     <Content Include="Pages\Categories.aspx" />
     <Content Include="Pages\Employees.aspx" />
@@ -348,6 +350,20 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Repository\CategoryRepository.vb" />
+    <Compile Include="Pages\AddEmployee.aspx.designer.vb">
+      <DependentUpon>AddEmployee.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\AddEmployee.aspx.vb">
+      <DependentUpon>AddEmployee.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Pages\EditEmployee.aspx.designer.vb">
+      <DependentUpon>EditEmployee.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\EditEmployee.aspx.vb">
+      <DependentUpon>EditEmployee.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Pages\Items.aspx.designer.vb">
       <DependentUpon>Items.aspx</DependentUpon>
     </Compile>

@@ -30,6 +30,12 @@ Partial Public Class Employee
     Public Property ReportsTo As Nullable(Of Integer)
     Public Property PhotoPath As String
 
+    Public ReadOnly Property FullName() As String
+        Get
+            Return $"{FirstName} {LastName}"
+        End Get
+    End Property
+
     'Public Overridable Property Employees1 As ICollection(Of Employee) = New HashSet(Of Employee)
     'Public Overridable Property Employee1 As Employee
     'Public Overridable Property Orders As ICollection(Of Order) = New HashSet(Of Order)
