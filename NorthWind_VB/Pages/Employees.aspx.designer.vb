@@ -12,4 +12,22 @@ Option Explicit On
 
 
 Partial Public Class Employees
+
+    '''<summary>
+    '''gvEmployees control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents gvEmployees As Global.System.Web.UI.WebControls.GridView
+
+    '''<summary>
+    '''btnAddEmployee control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents btnAddEmployee As Global.System.Web.UI.WebControls.Button
 End Class
