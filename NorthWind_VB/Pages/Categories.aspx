@@ -26,7 +26,7 @@
                 </tbody>
             </table>            
         </div>
-
+        <asp:Button ID="btnViewAll" runat="server" Text="See All Products" CssClass="btn btn-primary mb-3" OnClick="btnViewAll_Click" />
     </main>
 
 </asp:Content>
