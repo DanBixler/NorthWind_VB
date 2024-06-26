@@ -23,7 +23,7 @@ Partial Public Class Customer
     Public Property Phone As String
     Public Property Fax As String
 
-    Public Overridable Property Orders As ICollection(Of Order) = New HashSet(Of Order)
-    Public Overridable Property CustomerDemographics As ICollection(Of CustomerDemographic) = New HashSet(Of CustomerDemographic)
+    'Public Overridable Property Orders As ICollection(Of Order) = New HashSet(Of Order)
+    'Public Overridable Property CustomerDemographics As ICollection(Of CustomerDemographic) = New HashSet(Of CustomerDemographic)
 
 End Class
