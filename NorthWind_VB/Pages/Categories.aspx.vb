@@ -10,4 +10,8 @@
         Return repo.Category
     End Function
 
+    Protected Sub btnViewAll_Click(ByVal sender As Object, ByVal e As EventArgs)
+        Response.Redirect("Products.aspx")
+    End Sub
+
 End Class
